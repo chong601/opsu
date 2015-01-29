@@ -403,8 +403,6 @@ public class Slider {
 
 	/**
 	 * Calculates the slider hit result.
-	 * @param time the hit object time (difference between track time)
-	 * @param lastCircleHit true if the cursor was held within the last circle
 	 * @return the hit result (GameScore.HIT_* constants)
 	 */
 	public int hitResult() {
@@ -436,7 +434,6 @@ public class Slider {
 	 * Processes a mouse click.
 	 * @param x the x coordinate of the mouse
 	 * @param y the y coordinate of the mouse
-	 * @param comboEnd if this is the last object in the combo
 	 * @return true if a hit result was processed
 	 */
 	public boolean mousePressed(int x, int y) {

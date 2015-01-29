@@ -135,7 +135,6 @@ public class Circle {
 	 * Processes a mouse click.
 	 * @param x the x coordinate of the mouse
 	 * @param y the y coordinate of the mouse
-	 * @param comboEnd if this is the last object in the combo
 	 * @return true if a hit result was processed
 	 */
 	public boolean mousePressed(int x, int y) {
